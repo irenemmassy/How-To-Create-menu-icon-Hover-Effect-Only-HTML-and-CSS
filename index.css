@@ -1,0 +1,64 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  background-color: #2dcfd4;
+  height: 100vh;
+}
+.box {
+  background-color: #ffffff;
+  display: inline-block;
+  border-radius: 50px;
+  margin: 20px 0;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  transition: 0.5s;
+  box-shadow: 5px 5px 11px #1a787b, -5px -5px 11px #40ffff;
+}
+.icon {
+  height: 60px;
+  width: 60px;
+  background-color: #ffffff;
+  display: inline-block;
+  border-radius: 50px;
+  text-align: center;
+  box-sizing: content-box;
+  line-height: 60px;
+  font-size: 20px;
+}
+span {
+  font-weight: bold;
+  margin: 0 20px;
+  font-size: 17px;
+}
+.box:hover {
+  width: 200px;
+}
+.box:nth-child(1):hover .icon {
+  background-color: red;
+  color: white;
+}
+.box:nth-child(2):hover .icon {
+  background-color: #e7d10d;
+  color: white;
+}
+.box:nth-child(3):hover .icon {
+  background-color: #1b17f7;
+  color: white;
+}
+.box:nth-child(4):hover .icon {
+  background-color: #9d17f7;
+  color: white;
+}
+.box:nth-child(5):hover .icon {
+  background-color: #3aff08;
+  color: white;
+}
+.box:nth-child(6):hover .icon {
+  background-color: #ff00dd;
+  color: white;
+}
